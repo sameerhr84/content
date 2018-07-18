@@ -11,7 +11,7 @@ import com.retail.ecom.content.pojo.Seller;
 
 @RestController
 @RequestMapping("/content")
-public class CatalogController {
+public class ContentController {
 	
 	
 	@RequestMapping("/offer")
