@@ -6,6 +6,7 @@ public class Offer {
 	private String sellerId;
 	private String name;
 	private String imageUrl;
+	private String hostName;
 	public String getId() {
 		return id;
 	}
@@ -29,6 +30,12 @@ public class Offer {
 	}
 	public void setSellerId(String sellerId) {
 		this.sellerId = sellerId;
+	}
+	public String getHostName() {
+		return hostName;
+	}
+	public void setHostName(String hostName) {
+		this.hostName = hostName;
 	}
 
 }
