@@ -49,7 +49,7 @@
 	            <artifactId>docker-maven-plugin</artifactId>
 	            <version>0.4.13</version>
 	            <configuration>
-	            	<dockerHost>https://ec2-35-153-181-200.compute-1.amazonaws.com</dockerHost>
+	            	<dockerHost>http://ec2-35-153-181-200.compute-1.amazonaws.com:2375</dockerHost>
 	            	<dockerDirectory>docker</dockerDirectory>
 	            	<imageName>content/content</imageName>
 	                <repository>${awsAccountId}.832359323066.dkr.ecr.us-east-1.amazonaws.com/content</repository>
