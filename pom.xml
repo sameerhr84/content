@@ -46,10 +46,12 @@
 		<plugins>
 			<plugin>
 	            <groupId>com.spotify</groupId>
-	            <artifactId>dockerfile-maven-plugin</artifactId>
-	            <version>1.3.6</version>
+	            <artifactId>docker-maven-plugin</artifactId>
+	            <version>0.4.13</version>
 	            <configuration>
-	            	<dockerHost>https://ec2-35-171-167-146.compute-1.amazonaws.com:2375</dockerHost>
+	            	<dockerHost>https://ec2-35-153-181-200.compute-1.amazonaws.com</dockerHost>
+	            	<dockerDirectory>docker</dockerDirectory>
+	            	<imageName>content/content</imageName>
 	                <repository>${awsAccountId}.832359323066.dkr.ecr.us-east-1.amazonaws.com/content</repository>
 	                <tag>${project.version}</tag>
 	                <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
